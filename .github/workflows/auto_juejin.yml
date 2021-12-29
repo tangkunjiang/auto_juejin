@@ -7,7 +7,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    - cron: "16 23 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上5点半自动执行
+    - cron: "16 23 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点16左右自动执行
 
   workflow_dispatch:
 
