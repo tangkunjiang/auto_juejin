@@ -7,7 +7,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    - cron: "18 24 * * *" # 该时间为UTC时间，比北京时间晚8个小时
+    - cron: "18 0 * * *" # 该时间为UTC时间，比北京时间晚8个小时
 
   workflow_dispatch:
 
