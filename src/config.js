@@ -1,4 +1,6 @@
-const [cookie, user, pass, to] = process.argv.slice(2)
+const [cookie, user, pass, to] = process.argv.slice(2);
+
+console.log('cookie, user, pass, to: ', cookie, user, pass, to)
 
 const headers = {
   'content-type': 'application/json; charset=utf-8',
