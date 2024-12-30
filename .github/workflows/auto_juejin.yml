@@ -31,7 +31,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - name: Run Project
         env:
-          COOKIE: ${{ secrets.COOKIE }}
+          COOKIE: 681c66152b0b4f528df3d66940915e86
           USER: ${{ secrets.USER }}
           PASS: ${{ secrets.PASS }}
           TO: ${{ secrets.TO }}
