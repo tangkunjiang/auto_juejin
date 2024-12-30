@@ -15,9 +15,7 @@ async function sign_in() {
     credentials: 'include'
   }).then((res) => res.json());
 
-  console.log('today_status: ', today_status);
-
-  if (today_status.err_no !== 0) return Promise.reject('签到失败！');
+  if (today_status.err_no !== 0) return Promise.reject(`签到失败！ err_msg is ${today_status.err_msg]`);
   if (today_status.data) return '今日已经签到！';
 
   // 签到
